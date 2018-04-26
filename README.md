@@ -1,4 +1,4 @@
 # hello-world
 This is my first doc.
-# the following are what I have done.
-I have made some changes.
+# I'm learning git.
+I have record some notes in this repository.

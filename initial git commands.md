@@ -1,7 +1,7 @@
-<git diff _old_file new_file_>
+```git diff _old_file new_file_```
 可以比较两个文件的不同
 
-<git clone _file_ID/URL_>  
+```git clone _file_ID/URL_```  
 可以根据file_ID或者URL克隆git上的文件，同时还可以拷贝下文件的修改历史，即log
 
 **git log**  

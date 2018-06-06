@@ -44,7 +44,8 @@
 ```git merge branch_name1 branch_name2```将branch_name1,branch_name2两个分支合并  
 ```git show commit_id```,使用时机：在合并分支之后，想要查看某个版本与其父级之前的变动，但无法得知其父级id时，使用git show命令。会显示该commit与其父版本之前的差别，而无需输入父级id。  
 
-```git remote add remote_repository_name(自己命名的) https://****```在本地的git上添加一个远程的repository.
+```git remote -v```查看当前添加到远程库的目录
+```git remote add remote_repository_name(自己命名的) https://****```在本地的git上添加一个远程的repository.  
 ```git pull remote_repository_name branch_name```将远程库上的分支从网站上拉(pull,同步与合并)回本地。  
 ```git push remote_repository_name branch_name```将本地的分支同步(push,推)到远程库上。  
 ```git fetch remote_repository_name branch_name```将远程库上的分支从网站上复制回本地，但不会合并。  
